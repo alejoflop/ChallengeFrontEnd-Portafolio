@@ -1,0 +1,23 @@
+.about__paragraph {
+    font-weight: 400;
+}
+
+.about__container img {
+    width: 8.75rem;
+    height: 3.25rem;
+}
+
+/* Responsive */
+@media screen and (min-width: 0px) {
+    .about__paragraph {
+        width: none;
+        font-size: 0.875rem;
+    }
+}
+  
+@media screen and (min-width: 1024px) {
+    .about__paragraph {
+        width: 46.938rem;
+        font-size: 1rem;
+    }
+}

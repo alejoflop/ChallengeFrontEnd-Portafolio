@@ -1,0 +1,38 @@
+.skills__box {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.skills__box ul {
+    padding: 0 0 1rem 1rem;
+    margin: 0;
+}
+
+/* Responsive */
+@media screen and (min-width: 0px) {
+    .skills__box {
+        width: 9.75rem;
+        height: 7.375rem;
+        margin-bottom: 4%;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .skills__box {
+        width: 14rem;
+        height: 7.375rem;
+    }
+}
+  
+@media screen and (min-width: 1024px) {
+    .skills__box {
+        width: 11rem;
+        height: 10.875rem;
+        margin-bottom: 0;
+    }
+}

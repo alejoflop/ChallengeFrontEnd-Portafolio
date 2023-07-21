@@ -1,0 +1,17 @@
+.academic__courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Responsive */
+@media screen and (min-width: 0px) {
+    .academic__courses {
+        flex-wrap: wrap;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .academic__courses {
+        flex-wrap: nowrap;
+    }
+}

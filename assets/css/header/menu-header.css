@@ -1,0 +1,26 @@
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 8.375rem;
+}
+
+.logo {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cor-de-font);
+}
+

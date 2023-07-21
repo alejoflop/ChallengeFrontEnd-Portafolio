@@ -1,0 +1,11 @@
+.formcontato__textarea {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'Raleway';
+    color: var(--cor-de-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+

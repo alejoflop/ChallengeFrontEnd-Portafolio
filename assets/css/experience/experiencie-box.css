@@ -1,0 +1,27 @@
+.experience__box {
+    display: flex;
+    margin-bottom: 4rem;
+    margin-right: 1rem;
+    justify-content: space-between;
+}
+
+/* Responsive */
+@media screen and (min-width: 0px) {
+    .experience__box {
+        flex-wrap: wrap;
+    }
+
+    .experience__box.swap {
+        flex-flow: wrap;
+    }
+}
+  
+@media screen and (min-width: 1024px) {
+    .experience__box {
+        flex-wrap: nowrap;
+    }
+
+    .experience__box.swap {
+        flex-flow: row-reverse;
+    }
+}

@@ -1,0 +1,16 @@
+.academic__courses__item__title {
+    font-weight: 700;
+}
+
+/* Responsive */
+@media screen and (min-width: 0px) {
+    .academic__courses__item__title {
+        font-size: 1rem;
+    }
+}
+  
+@media screen and (min-width: 1024px) {
+    .academic__courses__item__title {
+        font-size: 1.375rem;
+    }
+}

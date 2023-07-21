@@ -1,0 +1,15 @@
+/* Responsive */
+@media screen and (min-width: 0px) {
+    .about__title {
+        font-size: 1.375rem;
+        font-weight: 700;
+        margin-top: 0;
+    }
+}
+  
+@media screen and (min-width: 1024px) {
+    .about__title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}

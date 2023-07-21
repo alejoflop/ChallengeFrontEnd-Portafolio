@@ -1,0 +1,16 @@
+.formcontato--esquerda {
+    margin-right: 1rem;
+}
+
+/* Responsive */
+@media screen and (min-width: 0px) {
+    .formcontato--esquerda {
+        display: none;
+    }
+}
+  
+@media screen and (min-width: 1024px) {
+    .formcontato--esquerda {
+        display: flex;
+    }
+}

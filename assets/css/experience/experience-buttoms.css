@@ -1,0 +1,34 @@
+.experiencia__botao--repo {
+    background: var(--cor-de-fundo);
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.experience__botao--demo {
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: var(--cor-de-fundo);
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.experiencia__botao--repo:hover {
+    cursor: pointer;
+    background: #d5d5d5;
+    color: #2163ba;
+    border: 1px solid #2163ba;
+}
+
+.experience__botao--demo:hover {
+    cursor: pointer;
+    background: #2163ba;
+    color: #d5d5d5;
+    border: 1px solid #2163ba;
+}
+

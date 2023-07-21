@@ -1,0 +1,73 @@
+.menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.menu__list__item {
+    font-family: 'Raleway';
+    font-size: 1rem;
+    color: var(--cor-de-font);
+    font-weight: 500;
+    margin-right: 1.25rem;
+}
+
+.menu__list__item {
+    display: inline-block;
+    position: relative;
+    color: #464646;
+  }
+  
+.menu__list__item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #464646;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+  
+.menu__list__item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Responsive */
+@media screen and (min-width: 0px) {
+  .menu__list__item {
+    display: none;
+  }
+  .menu__list__item.activo {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu__list__item {
+      display: none;
+  }
+  .menu__list__item.activo {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__list__item {
+      display: block;
+  }
+}
+  
