@@ -1,6 +1,6 @@
 # Challenge ONE | Front End -  Portafolio
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
+     <img width="600" heigth="600" src="https://raw.githubusercontent.com/alejoflop/ChallengeFrontEnd-Portafolio/main/assets/portada_portafolio.png">
 </p>
 
 <div align="center">
@@ -10,7 +10,7 @@
 
 # ℹ️ Descripción
 
-
+El Reto del Portafolio es un diseño propuesto por el equipo de AluraLatam + Oracle que simula un portafolio web personal. Durante la realización de este proyecto, mi enfoque se centró en optimizar el código y replicar el diseño propuesto para simular un entorno real de trabajo. Además, me aseguré de que la página fuera responsive, adaptándose a dispositivos de diferentes dimensiones, como el celular, la tablet y el computador. 🖥️📲
 
 # 🧔🏻 Autor
    
